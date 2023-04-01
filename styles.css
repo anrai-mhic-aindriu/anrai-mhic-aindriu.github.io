@@ -1,0 +1,104 @@
+ /* Import the Google fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu&display=swap');
+
+ /* Apply Playfair Display font to header */
+ header {
+   font-family: 'Playfair Display', serif;
+   margin: 0 auto;
+   padding: 20px 0;
+   text-align: center;
+ }
+ 
+ /* Apply Ubuntu font to rest of the site */
+ body {
+   font-family: 'Ubuntu', sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: white;
+   color: white;
+   text-rendering: optimizeLegibility; /* Enable font smoothing */
+ }
+ 
+ h1 {
+   font-size: 50px;
+ }
+ 
+ h2 {
+   font-size: 20px;
+ }
+ 
+ /* Other CSS styles here */
+ 
+ 
+ canvas {
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+   background-color: rgb(0, 0, 0); /* Temporary background color */
+ }
+ 
+ main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 40px;
+ }
+ 
+ #next-meeting {
+   background-color: transparent;
+   border: none;
+   padding: 20px;
+   width: 80%;
+   max-width: 800px;
+   text-align: center;
+   margin-bottom: 40px;
+ }
+ 
+ #next-meeting h2 {
+   font-family: 'Playfair Display', serif;
+   font-size: 2em;
+   margin-bottom: 20px;
+ }
+ 
+ #next-meeting br {
+   display: block;
+   content: "";
+   margin: 20px 0;
+   border-bottom: 2px solid white;
+ }
+ 
+ #previous-meetings {
+   width: 80%;
+   max-width: 800px;
+ }
+ 
+ #previous-meetings h2 {
+   font-family: 'Playfair Display', serif;
+   font-size: 2em;
+   border-bottom: 2px solid white;
+   padding-bottom: 10px;
+ }
+ 
+ #previous-meetings ul {
+   list-style-type: none;
+   padding: 0;
+ }
+ 
+ #previous-meetings li {
+   background-color: rgba(192, 192, 255, 0.8);
+   border: none;
+   padding: 20px;
+   margin-bottom: 20px;
+ }
+ 
+ a {
+   color: #ffbaa0; /* Warm orange */
+   text-decoration: none;
+   transition: color 0.5s ease; /* Transition effect */
+ }
+ 
+ a:hover {
+   color: #ff7300; /* Blue */
+ }
+ 
